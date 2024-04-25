@@ -1,13 +1,18 @@
 Phone_Pe_Pulse_Data_Visulaization_and_Exploration
 
-The aim of this project is to develop a solution that extracts, transforms, and visualizes data from the Phonepe Pulse GitHub repository. The process involves:
+The aim of this project is to develop a solution that extracts, transforms, and visualizes data from the Phonepe Pulse GitHub repository. 
 
-Data Extraction: Scripting to clone the repository and collect data.
+The process involves:
 
-Data Transformation: Using Python and Pandas to clean and structure the data.
+Data Extraction: Data is extracted using the Github cloning.
 
-Database Insertion: Storing transformed data in a POSTGRESQL database.
+Data Transformation: The cloned data is transformed to include requiered elements using Python and Pandas.
 
-Dashboard Creation: Using Streamlit and Plotly to build an interactive dashboard.
+Database Insertion: The transformed data is loaded into MySQL database.
 
-Data Retrieval: Fetching data from the database to dynamically update the dashboard.
+Dashboard Creation: Plotly ans Streamlit are used to create the required visualizations.
+
+Data Retrieval: Data is fetched dynamincally using the filter slections.
+
+Name : Sowmya Sri Kunjeti
+Batch: MD 107
